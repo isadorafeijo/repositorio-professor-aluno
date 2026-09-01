@@ -40,7 +40,15 @@ public class Professor {
     public String getEmail()       { return email; }
     public List<Turma> getTurmas() { return turmas; }
 
-    @Override
+    public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	@Override
     public String toString() {
         return nome;
     }

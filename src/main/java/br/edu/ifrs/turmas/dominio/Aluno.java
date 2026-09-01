@@ -34,7 +34,11 @@ public class Aluno {
 
     public void setTurma(Turma turma) { this.turma = turma; }
 
-    @Override
+    public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	@Override
     public String toString() {
         return nome + " (" + matricula + ")";
     }
